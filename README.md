@@ -1,7 +1,7 @@
 # Cartiva-weather-data
 To Run API locally, you will need to install the necessary dependencies and start the development server
-1. Close the repo 
-2. do cd Cartiva-weather-data
+1. Clone the repo 
+2. cd Cartiva-weather-data
 3. pip install -r requirement.txt
 4. python3 model.py
 5. python3 ingest_data.py
