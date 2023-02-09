@@ -9,3 +9,4 @@ To Run API locally, you will need to install the necessary dependencies and star
 7. python3 app.py
 To run the unit tests for the API, use the following command:
 python3 app.py test
+refer screenshot** files in repo for api endpoints
