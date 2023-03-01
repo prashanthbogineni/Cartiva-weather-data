@@ -34,6 +34,28 @@ Install the requirements :
     pip install -r requirements.txt
 
 
+# Getting Started
+
+## To Run the Project 
+
+- To Run the Project as a whole :
+ - Run `source entrypoint.sh` on Linux or `sh entrypoint.sh` on git bash on windows
+
+  Note: While running Project as a whole `Initiate Setup can be skipped`
+
+- To Run individual files
+ - Run `source models.sh` on Linux or `sh models.sh` on git bash on windows
+ - Run `source data_ingestion.sh` on Linux or `sh data_ingestion.sh` on git bash on windows
+ - Run `source data_analysis.sh` on Linux or `sh data_analysis.sh` on git bash on windows
+ - Run `source backend.sh` on Linux or `sh backend.sh` on git bash on windows
+
+- To Run Tests :
+ - Run `source test.sh` on Linux or `sh test.sh` on git bash on windows
+
+- To Stop the Application :
+  - Press ctrl+c or cmd+c to stop the application
+  
+
 ## Data Modeling
 
  * `SQLAlchemy` has been used to model the data here.
