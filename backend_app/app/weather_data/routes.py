@@ -62,6 +62,6 @@ def get_weather_statatics():
                     }
                 ]
             }
-            for ws in weather_statatics
+            for ws in weather_statatics 
         ]
     )
