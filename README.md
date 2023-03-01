@@ -54,3 +54,18 @@ Install the requirements :
   * Data Analysis has been performed using below command:
         `python3 data_analysis\weather_station_stats.py`
     - File Name : result_data_analysis.png
+
+
+## REST API
+    
+  * Flask Framework has been used to implement REST API.
+  * Only 'GET request' is enabled
+  * Default Pagination : 50 Records
+  
+  ### List of APIS exposed : 
+   - /api/weather
+   - /api/weather/stats
+
+   Screenshots of REST apis with response times:
+    - RESTAPI-api-weather-stats.png
+    - RESTAPI-api-weather.png
