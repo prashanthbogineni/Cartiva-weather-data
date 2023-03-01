@@ -5,7 +5,7 @@ from app.models.weather_data import WeatherData, WeatherStatistics
 
 @bp.route("/")
 def index():
-    return "This is CORTIVA project"
+    return "This is CORTEVA project"
 
 
 @bp.route("/api/weather", methods=["GET"])
